@@ -1,0 +1,8 @@
+
+Mechanisms DEFINITIONS ::= BEGIN
+
+    Mechanism ::= SEQUENCE {
+        oid OBJECT IDENTIFIER
+    }
+
+END

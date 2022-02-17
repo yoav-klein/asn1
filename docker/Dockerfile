@@ -13,6 +13,7 @@ RUN git clone https://github.com/vlm/asn1c.git
 WORKDIR asn1c
 
 COPY ./build.sh .
+RUN ./build.sh; rm build.sh
 
-RUN ./build.sh
+WORKDIR /
 
